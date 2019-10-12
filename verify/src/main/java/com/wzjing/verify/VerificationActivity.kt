@@ -13,6 +13,7 @@ import cn.jiguang.verifysdk.api.JVerificationInterface
 import cn.jiguang.verifysdk.api.VerifyListener
 import cn.jiguang.verifysdk.api.VerifySDK
 import cn.jiguang.verifysdk.api.VerifySDK.CODE_VERIFY_EXCEPTION
+import com.wzjing.verify.*
 import okhttp3.MediaType
 import okhttp3.OkHttpClient
 import okhttp3.Request

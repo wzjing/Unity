@@ -1,4 +1,4 @@
-package com.wzjing.unity;
+package com.wzjing.verify;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -135,9 +135,9 @@ public class LoginResultActivity extends AppCompatActivity implements View.OnCli
     @Override
     public void onClick(View v) {
 //        finish();
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
+//        Intent intent = new Intent(this, MainActivity.class);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        startActivity(intent);
     }
 
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");

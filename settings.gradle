@@ -1,2 +1,3 @@
 rootProject.name='Unity'
 include ':app'
+include ':verify'
